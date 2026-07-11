@@ -1,0 +1,31 @@
+# Core dependencies
+numpy>=1.21.0,<2.0.0
+
+# PyTorch for verification and comparison
+torch>=2.0.0
+
+# Visualization and plotting
+matplotlib>=3.5.0
+
+# Progress bars for training
+tqdm>=4.64.0
+
+# For dataset handling and preprocessing
+datasets>=2.12.0
+
+# Jupyter for exploratory notebooks
+jupyter>=1.0.0
+ipykernel>=6.15.0
+
+# Optional but recommended for development
+pytest>=7.0.0  # For running tests
+flake8>=5.0.0  # For linting
+mypy>=0.990   # For type checking
+black>=22.0.0  # For code formatting
+
+# For loading/saving model checkpoints
+cloudpickle>=2.0.0
+
+# For advanced debugging and profiling
+line_profiler>=3.5.0
+memory_profiler>=0.60.0
