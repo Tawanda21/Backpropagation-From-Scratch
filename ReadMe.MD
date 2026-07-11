@@ -5,9 +5,9 @@
 
 This project started with a simple question: *"What actually happens when I call `.backward()` in PyTorch?"*
 
-I'd been using deep learning frameworks for years, but the internals remained a black box. So I decided to build everything from scratch—the tensor operations, the computational graph, the chain rule propagation, and eventually a complete transformer model. No PyTorch, no TensorFlow. Just Python, NumPy, and a lot of debugging.
+I'd been using deep learning frameworks for months, but the internals remained a black box. So I decided to build everything from scratch—the tensor operations, the computational graph, the chain rule propagation, and eventually a complete transformer model. No PyTorch, no TensorFlow. Just Python, NumPy, and a lot of debugging.
 
-What followed was 200+ hours of wrestling with matrix calculus, debugging gradient shapes, and having multiple "aha" moments that completely changed how I think about deep learning.
+What followed was 50+ hours of wrestling with matrix calculus, debugging gradient shapes, and having multiple "aha" moments that completely changed how I think about deep learning.
 
 ---
 
@@ -36,7 +36,7 @@ After completing the scratch implementation, I ported the exact same model to Py
 Here's how I organized everything:
 
 ```
-autodiff-gpt/
+BACKPROPAGATION FROM SCRATCH/
 │
 ├── README.md                          # This file
 ├── requirements.txt                   # Dependencies
