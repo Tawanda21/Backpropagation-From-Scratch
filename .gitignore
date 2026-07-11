@@ -1,0 +1,47 @@
+cat > .gitignore << 'EOF'
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Model checkpoints
+*.pkl
+*.pt
+*.pth
+checkpoints/
+
+# Data files
+*.txt
+!requirements.txt
+data/*.txt
+!data/shakespeare.txt
+
+# Experiment outputs
+experiments/*.npy
+experiments/*.json
+experiments/*.png
+experiments/*.pdf
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+EOF
